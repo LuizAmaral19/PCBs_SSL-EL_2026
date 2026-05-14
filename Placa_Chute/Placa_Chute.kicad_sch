@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "dbcdf86d-326b-43a5-804a-913d48c6e76e")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 146.05 62.23)
+		(size 45.72 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "48ea802c-6cd5-4604-91ca-dbd41bf8506d")
+		(property "Sheetname" "Circuito_Boost"
+			(at 146.05 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Circuito_Boost.kicad_sch"
+			(at 146.05 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Placa_Chute"
+				(path "/dbcdf86d-326b-43a5-804a-913d48c6e76e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 91.44)
+		(size 45.72 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a033b426-5f83-4e8a-befd-0370850f96e2")
+		(property "Sheetname" "Sistema_Controle"
+			(at 146.05 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sistema_Controle.kicad_sch"
+			(at 146.05 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Placa_Chute"
+				(path "/dbcdf86d-326b-43a5-804a-913d48c6e76e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
