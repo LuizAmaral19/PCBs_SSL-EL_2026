@@ -685,6 +685,14 @@
     [
       "db9b0c1e-08e2-4b76-9990-876c9579e405",
       "MPU6500"
+    ],
+    [
+      "1bb8db2d-977d-4f06-b71b-a39651968e63",
+      "Ativacao_Chute"
+    ],
+    [
+      "4486f1f7-60e9-41b8-852e-e21f1bbb09a4",
+      "Leitura_Encoders"
     ]
   ],
   "text_variables": {}
