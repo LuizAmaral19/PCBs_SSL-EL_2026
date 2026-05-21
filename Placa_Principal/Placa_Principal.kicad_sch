@@ -2782,49 +2782,7 @@
 		)
 	)
 	(sheet
-		(at 24.13 128.27)
-		(size 39.37 13.97)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "1bb8db2d-977d-4f06-b71b-a39651968e63")
-		(property "Sheetname" "Ativacao_Chute"
-			(at 24.13 127.5584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Ativacao_Chute.kicad_sch"
-			(at 24.13 142.8246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Placa_Principal"
-				(path "/02649df7-f0d0-431b-8f11-0967d1dd03be"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 24.13 151.13)
+		(at 24.13 130.81)
 		(size 39.37 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2840,7 +2798,7 @@
 		)
 		(uuid "4486f1f7-60e9-41b8-852e-e21f1bbb09a4")
 		(property "Sheetname" "Leitura_Encoders"
-			(at 24.13 150.4184 0)
+			(at 24.13 130.0984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,7 +2807,7 @@
 			)
 		)
 		(property "Sheetfile" "Leitura_Encoders.kicad_sch"
-			(at 24.13 165.6846 0)
+			(at 24.13 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
