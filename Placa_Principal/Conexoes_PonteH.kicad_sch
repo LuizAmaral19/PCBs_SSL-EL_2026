@@ -1053,7 +1053,7 @@
 			)
 		)
 	)
-	(global_label "ESP_GPIO17"
+	(global_label "ESP_GPIO47"
 		(shape input)
 		(at 185.42 121.92 180)
 		(fields_autoplaced yes)
@@ -1075,7 +1075,7 @@
 			)
 		)
 	)
-	(global_label "ESP_GPIO15"
+	(global_label "ESP_GPIO45"
 		(shape input)
 		(at 185.42 116.84 180)
 		(fields_autoplaced yes)
@@ -1097,7 +1097,7 @@
 			)
 		)
 	)
-	(global_label "ESP_GPIO16"
+	(global_label "ESP_GPIO48"
 		(shape input)
 		(at 185.42 119.38 180)
 		(fields_autoplaced yes)
@@ -1119,7 +1119,7 @@
 			)
 		)
 	)
-	(global_label "ESP_GPIO18"
+	(global_label "ESP_GPIO21"
 		(shape input)
 		(at 185.42 124.46 180)
 		(fields_autoplaced yes)
