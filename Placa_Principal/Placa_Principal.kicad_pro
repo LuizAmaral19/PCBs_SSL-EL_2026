@@ -650,7 +650,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../../../../Titans/SSL/Esquemáticos/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -672,7 +672,7 @@
     ],
     [
       "d787e3dc-0c72-4903-b069-be5f90fb6ecc",
-      "Alimentacao_5V"
+      "Alimentacao_3.3V"
     ],
     [
       "79e2b464-cb21-43c3-aa11-60f9896a06bc",

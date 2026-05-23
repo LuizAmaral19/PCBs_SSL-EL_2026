@@ -153,7 +153,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -174,7 +174,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -200,7 +200,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -218,7 +218,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -256,7 +256,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -885,72 +885,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 101.6 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "113e3ee6-c2ff-4f69-aa91-e338f153cc85")
-		(property "Reference" "#PWR031"
-			(at 101.6 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 101.6 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 101.6 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82fe4c1d-a680-48e0-95e2-4f9093dee4b8")
-		)
-		(instances
-			(project "Placa_Principal"
-				(path "/02649df7-f0d0-431b-8f11-0967d1dd03be/4486f1f7-60e9-41b8-852e-e21f1bbb09a4"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 101.6 121.92 0)
 		(unit 1)
@@ -1153,7 +1087,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power:+3.3V")
 		(at 207.01 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1161,7 +1095,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "24b2a663-12aa-41f9-bf3e-270cfda57ec9")
+		(uuid "51a4b1c8-ce6f-4a9f-bceb-3b111eea19dc")
 		(property "Reference" "#PWR027"
 			(at 207.01 63.5 0)
 			(effects
@@ -1171,7 +1105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3.3V"
 			(at 207.01 54.61 0)
 			(effects
 				(font
@@ -1197,7 +1131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 207.01 59.69 0)
 			(effects
 				(font
@@ -1207,10 +1141,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "69a210cc-0043-4598-8275-a5f8d1226fe0")
+			(uuid "98f2588c-72f3-420f-977f-d2e21a2823d4")
 		)
 		(instances
-			(project ""
+			(project "Placa_Principal"
 				(path "/02649df7-f0d0-431b-8f11-0967d1dd03be/4486f1f7-60e9-41b8-852e-e21f1bbb09a4"
 					(reference "#PWR027")
 					(unit 1)
@@ -1219,7 +1153,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power:+3.3V")
 		(at 104.14 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1227,8 +1161,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "48c2a329-bb2b-408a-ad54-e13ccf6a1c09")
-		(property "Reference" "#PWR033"
+		(uuid "60d8f4cd-5d2b-43d0-9726-63cf95a781d0")
+		(property "Reference" "#PWR09"
 			(at 104.14 63.5 0)
 			(effects
 				(font
@@ -1237,7 +1171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3.3V"
 			(at 104.14 54.61 0)
 			(effects
 				(font
@@ -1263,7 +1197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 104.14 59.69 0)
 			(effects
 				(font
@@ -1273,12 +1207,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b91170ff-7ade-4288-afa7-6305c4bcb525")
+			(uuid "9ce89642-7465-4af9-b13c-b76b047f9083")
 		)
 		(instances
 			(project "Placa_Principal"
 				(path "/02649df7-f0d0-431b-8f11-0967d1dd03be/4486f1f7-60e9-41b8-852e-e21f1bbb09a4"
-					(reference "#PWR033")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -1631,6 +1565,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 204.47 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5b44f3d-05c8-42e6-873c-7417d6844696")
+		(property "Reference" "#PWR029"
+			(at 204.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 204.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 204.47 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1814227f-be14-4042-b1eb-3865b1eaea4d")
+		)
+		(instances
+			(project "Placa_Principal"
+				(path "/02649df7-f0d0-431b-8f11-0967d1dd03be/4486f1f7-60e9-41b8-852e-e21f1bbb09a4"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 113.03 68.58 0)
 		(unit 1)
@@ -1771,17 +1771,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 204.47 107.95 0)
+		(lib_id "power:+3.3V")
+		(at 101.6 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "caec1c40-b496-4d74-a60d-9801b3ccddde")
-		(property "Reference" "#PWR029"
-			(at 204.47 111.76 0)
+		(uuid "deca238c-ddbc-4a8b-af5c-5f3515a4e8e6")
+		(property "Reference" "#PWR015"
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,8 +1789,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 204.47 102.87 0)
+		(property "Value" "+3.3V"
+			(at 101.6 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,7 +1798,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 107.95 0)
+			(at 101.6 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,7 +1807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 107.95 0)
+			(at 101.6 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1815,8 +1815,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 204.47 107.95 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 101.6 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,12 +1825,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ccdc1daa-0301-4e19-8663-f36188ee4e51")
+			(uuid "c792020f-96d9-40c6-8a65-21d2eccd1c88")
 		)
 		(instances
 			(project "Placa_Principal"
 				(path "/02649df7-f0d0-431b-8f11-0967d1dd03be/4486f1f7-60e9-41b8-852e-e21f1bbb09a4"
-					(reference "#PWR029")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
