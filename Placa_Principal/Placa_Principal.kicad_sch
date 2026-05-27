@@ -1352,16 +1352,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 96.52) (xy 176.53 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29027103-4c86-4197-af05-53db04d1de19")
-	)
-	(wire
-		(pts
 			(xy 172.72 81.28) (xy 176.53 81.28)
 		)
 		(stroke
@@ -1462,16 +1452,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 104.14) (xy 176.53 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "467d512e-041b-4930-87e5-340a72f46aab")
-	)
-	(wire
-		(pts
 			(xy 172.72 86.36) (xy 176.53 86.36)
 		)
 		(stroke
@@ -1522,16 +1502,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 99.06) (xy 176.53 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8703bf4c-9a7e-4dba-b65d-41c78d8aca98")
-	)
-	(wire
-		(pts
 			(xy 172.72 121.92) (xy 176.53 121.92)
 		)
 		(stroke
@@ -1559,16 +1529,6 @@
 			(type default)
 		)
 		(uuid "af1643b2-4396-428c-82b9-d3e697549dda")
-	)
-	(wire
-		(pts
-			(xy 172.72 101.6) (xy 176.53 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b088210d-c662-4624-b05d-b0bcea657072")
 	)
 	(wire
 		(pts
@@ -1890,28 +1850,6 @@
 			)
 		)
 	)
-	(global_label "SPI_CLK"
-		(shape output)
-		(at 176.53 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4539e076-ba35-485c-a26c-a5cda9c42756")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.1352 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ESP_GPIO45"
 		(shape input)
 		(at 176.53 127 0)
@@ -1947,28 +1885,6 @@
 		(uuid "5a6ef141-a0e3-4f12-adb7-959923404988")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 191.0056 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI_CS"
-		(shape output)
-		(at 176.53 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6b42b265-1fd7-4943-b037-474c50a65a3a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.0466 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,28 +2114,6 @@
 			)
 		)
 	)
-	(global_label "SPI_MOSI"
-		(shape output)
-		(at 176.53 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b66ce82a-ef36-4c43-8ce1-03bae1699fec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.1633 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ESP_GPIO21"
 		(shape input)
 		(at 176.53 114.3 0)
@@ -2299,28 +2193,6 @@
 		(uuid "dbf39fa2-1d43-465d-89e7-158920150114")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 191.0056 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI_MISO"
-		(shape output)
-		(at 176.53 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e8b5ba95-c7e7-4a91-86ac-7c84d984969f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.1633 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
